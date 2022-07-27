@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Header.css';
+import { NavLink } from 'react-router-dom';
 
 function Header() {
     return (
@@ -12,10 +13,10 @@ function Header() {
         </a>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">Buy</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">Sell</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+          <li><a href="/login" class="nav-link px-2 text-secondary">Home</a></li>
+          <li><a href="/" class="nav-link px-2 text-white">Buy</a></li>
+          <li><a href="/" class="nav-link px-2 text-white">Sell</a></li>
+          <li><a href="/" class="nav-link px-2 text-white">FAQs</a></li>
         </ul>
 
         <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
@@ -23,8 +24,8 @@ function Header() {
         </form>
 
         <div class="text-end">
-          <button type="button" class="btn btn-outline-light me-2">Login</button>
-          <button type="button" class="btn btn-warning">Sign-up</button>
+          <a href="/login"><button type="button" class="btn btn-outline-light me-2">Login</button></a>
+          <a href="/sign-up"><button type="button" class="btn btn-warning">Sign-up</button></a>
         </div>
       </div>
     </div>
