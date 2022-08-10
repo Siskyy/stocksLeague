@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: var(--color-lt4);
+  background: var(--color-main);
 }
 
 code {
@@ -23,4 +23,11 @@ code {
   --color-lt2: rgb(149, 213, 178);
   --color-lt3: rgb(183, 228, 199);
   --color-lt4: rgb(216, 243, 220);
+
+  /* New Pallet */
+  --color-main: #243482;
+  --color-lb: #3E4A99;
+  --color-peach: #ffded3;
+  --color-nav: #d4e0f8;
+
 }
