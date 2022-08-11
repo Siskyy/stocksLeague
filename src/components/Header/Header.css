@@ -1,3 +1,29 @@
-.header-box {
+.header {
     box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%);
+}
+.nav-link.navButton {
+    color: var(--color-nav);
+    font-size: 18px;
+}
+.nav-link.navButton:hover {
+    color: #ffffff;
+}
+.btn-peach {
+    background-color: var(--color-peach);
+    color: black;
+    border: none;
+}
+.btn-login {
+    background-color: var(--color-bnb);
+    border: none;
+    color: #ffffff;
+}
+
+.no-css {
+    text-decoration: none;
+    color: #ffffff;
+}
+.no-css-b {
+    text-decoration: none;
+    color: #000000;
 }
